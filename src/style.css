@@ -1,14 +1,16 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Verdana';
   font-size: 16px;
   line-height: 1;
   color: #000;
   background-color: #fff;
-  margin: 10;
-  overflow: hidden;
+  margin: 0;
+  zoom:100%;
 }
+
+
 
 p{
   color:#282828;
@@ -25,15 +27,6 @@ h1 {
   margin: 0 0 10px;
 }
 
-.tintedBlackLeft {
-  background-color:#00000033;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 1.2;
-  padding:11px 11px 11px 0px;
-}
 
 button {
   padding: 5px 9px 5px 9px;
@@ -43,3 +36,141 @@ button {
   background-color: #0091CE;
   color: #fff;
 }
+
+th { white-space: nowrap; }
+
+tr:first-child {
+  border-top: none;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+
+
+.bold{
+  color: #000;
+  font-weight: bold;
+  width: 200;
+  font-size: 13px;
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+
+#float {
+        position: fixed;
+        top: 3em;
+        right: 2em;
+        z-index: 100;
+    }
+
+    .dt-scroll-headInner{
+      height: 0px;
+    }
+
+.i-circle-red {
+  margin-left: 3px;
+  display: inline-block;
+  background-color: #f4a4a4;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  line-height: 10px;
+}
+
+.i-circle-blue {
+  margin-left: 3px;
+  display: inline-block;
+  background-color: #ADD8E6;
+  color: #000000;
+  font-size: 14px;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  padding: 10px;
+  line-height: 10px;
+}
+
+#chart-container {
+  position: sticky;
+  top: 0;
+  background-color: #fff; /* Adjust background color as needed */
+  z-index: 1000; /* Ensure it stays above other content */
+  padding: 10px; /* Adjust padding for spacing */
+  height: 180px; /* Example fixed height; adjust as needed */
+  overflow: hidden; /* Hide overflow content */
+}
+
+#chart {
+  position: relative;
+  width: 100%;
+  height: 170%;
+  overflow: hidden; /* Ensure overflow is hidden */
+}
+
+.overlay-mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%; /* Adjust as needed to limit the visible portion */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), white); /* Gradient to fade out */
+}
+
+
+
+#table-container {
+    max-height: 400px; /* Example max height; adjust as needed */
+    overflow-y: auto;
+}
+
+.voteGreen{
+  background-color: #D9EACA;
+  font-weight: bold;
+
+}
+
+.vote{
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 13px;
+  width: 50px;
+  height: 10px;
+  padding: 10px;
+  line-height: 10px;
+}
+
+.cosp{
+  text-align: center;
+  color: #00000080;
+  font-weight: bold;
+  font-size: 13px;
+  width: 50px;
+  height: 10px;
+  padding: 10px;
+  line-height: 10px;
+}
+
+.voteYellow{
+  background-color: #EFF7A9;
+}
+
+.voteRed{
+  background-color: #FED1CF;
+}
+
+
+.dt-scroll-body{
+  border-color: #b0bfce;
+color: #b0bfce;
+}
+
+
+  div.dt-scroll-body {
+    border-bottom-width: 10px;
+  }
