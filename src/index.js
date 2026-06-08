@@ -260,54 +260,49 @@ window.loadData = (json) => {
   function generateChartData(table) {
     // Initialize an object to hold counts for 'Aye', 'Nay', and 'Absent' associated with 'R', 'D', 'I'
     let counts = {
-      'R': [null, null, null], // Array for 'R': [Aye, Nay, Absent]
-      'D': [null, null, null], // Array for 'D': [Aye, Nay, Absent]
-      'I': [null, null, null]  // Array for 'I': [Aye, Nay, Absent]
+        'R': [0, 0, 0], // Array for 'R': [Aye, Nay, Absent]
+        'D': [0, 0, 0], // Array for 'D': [Aye, Nay, Absent]
+        'I': [0, 0, 0]  // Array for 'I': [Aye, Nay, Absent]
     };
-  
-    // Get the data for column 4 ('Aye', 'Nay', 'Absent')
-    table.column(4, { search: "applied" })
-      .data()
-      .each(function (val) {
-        switch (val) {
-          case 'Aye':
-            counts['R'][0] += 1; // Increment 'Aye' count for 'R'
-            break;
-          case 'Nay':
-            counts['R'][1] += 1; // Increment 'Nay' count for 'R'
-            break;
-          case 'Absent':
-            counts['R'][2] += 1; // Increment 'Absent' count for 'R'
-            break;
-        }
-      });
-  
-    // Get the data for column 3 ('D', 'R', 'I')
-    table.column(3, { search: "applied" })
-      .data()
-      .each(function (val) {
-        switch (val) {
-          case 'D':
-            counts['D'][0] += 1; // Increment 'Aye' count for 'D'
-            break;
-          case 'R':
-            counts['R'][0] += 1; // Increment 'Aye' count for 'R'
-            break;
-          case 'I':
-            counts['I'][0] += 1; // Increment 'Aye' count for 'I'
-            break;
-        }
-      });
-  
+
+    // Iterate through the table data row by row
+    table.rows({ search: "applied" }).every(function (val) {
+        let data = this.data();
+        let vote = data[4]; // Column 4: 'Aye', 'Nay', 'Absent'
+        let party = data[3]; // Column 3: 'D', 'R', 'I'
+
+        console.log(val);
+
+        // Debug: Log the extracted values
+     //   console.log(`Vote: ${vote}, Party: ${party}`);
+
+        // Only increment the count if party is one of 'R', 'D', 'I'
+            switch (data.Vote) {
+                case 'Aye':
+                    counts[data.Party][0] += 1; // Increment 'Aye' count for the party
+                    break;
+                case 'Nay':
+                    counts[data.Party][1] += 1; // Increment 'Nay' count for the party
+                    break;
+                case 'Absent':
+                    counts[data.Party][2] += 1; // Increment 'Absent' count for the party
+                    break;
+                default:
+                    console.log(`Unexpected vote value: ${data.Vote}`);
+            }
+    });
+
     // Convert counts object into the desired array format
     let result = [
-      { name: 'R', data: counts['R'], color: '#FF0000', point:{events:{click:function () {filterParty('R');filterVote(this.category);}} }},
-      { name: 'D', data: counts['D'], color: '#0000FF', point:{events:{click:function () {filterParty('D');filterVote(this.category);},} } },
-      { name: 'I', data: counts['I'], color: '#D3D3D3', point:{events:{click:function () {filterParty('I');filterVote(this.category);},} } }
+        { name: 'R', data: counts['R'], color: '#FF0000', point: { events: { click: function () { filterParty('R'); filterVote(this.category); } } } },
+        { name: 'D', data: counts['D'], color: '#0000FF', point: { events: { click: function () { filterParty('D'); filterVote(this.category); } } } },
+        { name: 'I', data: counts['I'], color: '#D3D3D3', point: { events: { click: function () { filterParty('I'); filterVote(this.category); } } } }
     ];
-  console.log(result)
+
+    console.log(counts);
     return result;
-  };
+}
+
   
     
     
