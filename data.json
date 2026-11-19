@@ -1,0 +1,1509 @@
+{
+	"messages" : 
+	[
+		{
+			"code" : "0",
+			"message" : "OK"
+		}
+	],
+	"response" : 
+	{
+		"data" : 
+		[
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MII63MUXKM6",
+					"NameFirst" : "David",
+					"NameLast" : "Jacoby",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2WB08VVVWJIY44ZZ9PJMXUMSI"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165416"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTFLPVK2SDA4R7UTBI",
+					"NameFirst" : "Bobby",
+					"NameLast" : "Kaufmann",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YHL0XYYR3RBFJ0WG03OFL2OY"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165417"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIKOPBVM6CF",
+					"NameFirst" : "Matt",
+					"NameLast" : "Windschitl",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2WTIYALJII3GF5P47IW96MACI"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165418"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIIGB5E9Z8E",
+					"NameFirst" : "Bob",
+					"NameLast" : "Kressig",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "30JMIXEM9KP5C82XP7DCTK4BM"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165419"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIK6U6FRGRJ",
+					"NameFirst" : "Beth",
+					"NameLast" : "Wessel-Kroeschell",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "30OPX9U4U28FT8KAGSTCQF9IA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165420"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIIY6AU4OTA",
+					"NameFirst" : "Rick",
+					"NameLast" : "Olson",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "31EQMUXRP9NCO58GFZ7MD79B6"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165421"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIHMYJLNT7I",
+					"NameFirst" : "Pat",
+					"NameLast" : "Grassley",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "31WOKJT6LBFCTXUL77T4G8WRM"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165422"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIHJ4Q5ENQ6",
+					"NameFirst" : "Ruth Ann",
+					"NameLast" : "Gaines",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2WEUYE44CJD6ADRGEP7D7GVS2"
+				},
+				"modId" : "424",
+				"portalData" : {},
+				"recordId" : "165423"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIKYWUEYKYN",
+					"NameFirst" : "Dean",
+					"NameLast" : "Fisher",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "32TEDTEF1OIKEGWNIACZU85IA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165424"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1DHVGG318MH6MIL2QNV7QFZ",
+					"NameFirst" : "Megan",
+					"NameLast" : "Jones",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2W4WO0UXCR83SP7IM18SDADIA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165425"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTFLPVK2SDCOMUOXVH",
+					"NameFirst" : "Brian",
+					"NameLast" : "Meyer",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2WCO4N5RG3KDOEHMCJHVIMPCY"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165426"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17P71EO9682L",
+					"NameFirst" : "Steven",
+					"NameLast" : "Holt",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2ZAN7K9HT4Y96J0CKLII1DDR6"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165427"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17P758HPFE2A",
+					"NameFirst" : "Timi",
+					"NameLast" : "Brown-Powers",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "32LHPTUZAAI551IU5G1Z6DN1E"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165428"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17P77SDC9I33",
+					"NameFirst" : "Norlin",
+					"NameLast" : "Mommsen",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2Y79CE6D9KPMMX83F2CCD83C2"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165429"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17P6V0Z62WGD",
+					"NameFirst" : "John",
+					"NameLast" : "Wills",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "31GFYUXMKBZ0D8UFLJDV275YA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165430"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17P6XKUSX1NU",
+					"NameFirst" : "Michael",
+					"NameLast" : "Sexton",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "32PQ5KDI3TCY3SHWMZ9H2SESI"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165431"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "X74JA0Y0TQ9RZ9VJ30J3",
+					"NameFirst" : "David",
+					"NameLast" : "Sieck",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "3172ZOO4NX07IXHAT19MWEU3M"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165432"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTIAU4SFDFB3",
+					"NameFirst" : "Thomas",
+					"NameLast" : "Moore",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YAAW5URCE34L88GRV46E406A"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165433"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17Q97REFCAXK",
+					"NameFirst" : "Michael",
+					"NameLast" : "Bergan",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "32T01PMSDD7KCTMYB4ZFGHMG2"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165434"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17Q991C8RCYI",
+					"NameFirst" : "Jane",
+					"NameLast" : "Bloomingdale",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YEGNSDELC9VL6F1YG2NJSSTE"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165435"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17Q9HYWYOQLM",
+					"NameFirst" : "Shannon",
+					"NameLast" : "Lundgren",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "30QF639H99GJ0SBVPBDE8AR4Y"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165436"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17Q9KISLIUXQ",
+					"NameFirst" : "Gary",
+					"NameLast" : "Mohr",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "31X03GKXO0152WVVLIGS3HZAA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165437"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17Q9N2O8CYTG",
+					"NameFirst" : "Skyler",
+					"NameLast" : "Wheeler",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2XHXURVHPBWBPBIJ0EHOE4MAQ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165438"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17Q9PMJV730I",
+					"NameFirst" : "Amy",
+					"NameLast" : "Nielsen",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "30GM5492VCGMK7QFK0KCRQPR6"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165439"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "15HTTHNIO17Q96HGLX8JC",
+					"NameFirst" : "Craig",
+					"NameLast" : "Johnson",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "30LC7P7COPH3Y1HSX9WAE8YQQ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165440"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTIOWQQGRSZW",
+					"NameFirst" : "Monica",
+					"NameLast" : "Kurth",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2X1J1FMH06ZDZCY1ZHFK1BEN6"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165441"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "GG7VRTISFREZ05T9ZL9E7",
+					"NameFirst" : "Jacob",
+					"NameLast" : "Bossman",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YJ8Y4BZUPDORN1NFT1BQ2QCI"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165442"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4BUDT6X6R",
+					"NameFirst" : "Ray",
+					"NameLast" : "Sorensen",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YFV5ICPOBFMQWXGNX7RJ3OWY"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165443"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4W9EVVS74",
+					"NameFirst" : "Jeff",
+					"NameLast" : "Shipley",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "3007QEDVM2ZP2VB7J48GWX52A"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165444"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4R5NM7KLV",
+					"NameFirst" : "Tracy",
+					"NameLast" : "Ehlert",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2W60MZYO2AWAULXLGLL3BXO82"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165445"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4JI0PP90Z",
+					"NameFirst" : "Jennifer",
+					"NameLast" : "Konfrst",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2YYRT61DUL8V9C4EGRE6RT9EQ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165446"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ5038C4XVJ",
+					"NameFirst" : "Lindsay",
+					"NameLast" : "James",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2YIR93TVBHQT68AMA1KWW73Z6"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165447"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4KRYJ4B14",
+					"NameFirst" : "Kenan",
+					"NameLast" : "Judge",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2ZNC6Z56LKOAOCQS8IYUM90BM"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165448"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4FO79G31K",
+					"NameFirst" : "Heather",
+					"NameLast" : "Matson",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2WEDQSSD0TJSX7KGYG2YLNPWI"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165449"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4SFLFMMID",
+					"NameFirst" : "Thomas",
+					"NameLast" : "Gerhold",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2WUP4W1G9RBBCEJGDEHKDD52A"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165450"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4AKFZRV7P",
+					"NameFirst" : "Ann",
+					"NameLast" : "Meyer",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "30DN26O25IY6CL1397BGAJFMQ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165451"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "20QFK6Q8X8WKVXT2O2A86",
+					"NameFirst" : "Thomas",
+					"NameLast" : "Jeneary",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YE116SZ8KJTTWUHB3SD1EEW2"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165452"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "U7JGSR4MC5DTJ4EE9G112A",
+					"NameFirst" : "Brian",
+					"NameLast" : "Lohse",
+					"Party" : "R",
+					"Vote" : "Nay",
+					"_ID" : "2WED3BKKO9BDQIXY5GS0Y949U"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165453"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "20QFK6Q8X8WLCX21POXZI",
+					"NameFirst" : "Ross",
+					"NameLast" : "Wilburn",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "30L4RZ9VV5IAUKM8456C9LUQQ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165454"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UGACC2XIMM7",
+					"NameFirst" : "Craig",
+					"NameLast" : "Williams",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "31GIFS7SRN6XDY0K5D7095QSI"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165455"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG9IZH4WGK4",
+					"NameFirst" : "Eric",
+					"NameLast" : "Gjerde",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2XMBR2U80SNN52E8MJ3P8MZ8I"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165456"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG9YAQXX2I3",
+					"NameFirst" : "Carter",
+					"NameLast" : "Nordman",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2W18VKFL5KIW1F4JC1QECDUJM"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165457"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG9BBU8E5L4",
+					"NameFirst" : "Dr Steven",
+					"NameLast" : "Bradley",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "3219S6MZL7LW7866Y3OJ82E3M"
+				},
+				"modId" : "424",
+				"portalData" : {},
+				"recordId" : "165458"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UGA5YDUFDH4",
+					"NameFirst" : "Henry",
+					"NameLast" : "Stone",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2Y7YLKTULBO7A0ICP2HZVDGIQ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165459"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG97I0S503M",
+					"NameFirst" : "Eddie",
+					"NameLast" : "Andrews",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2Y7UCCPSV3VB1YAFYF3IYIFAA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165460"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG98RYLK1XI",
+					"NameFirst" : "Brooke",
+					"NameLast" : "Boden",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2WZYUGKZLPBH1AOXHV9FA7YEA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165461"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG9GFLI2CWB",
+					"NameFirst" : "Mark",
+					"NameLast" : "Cisneros",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2WAWB1F3S8XQT9D1Y9AYIKSMA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165462"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG9QN41ERIX",
+					"NameFirst" : "Chad",
+					"NameLast" : "Ingels",
+					"Party" : "R",
+					"Vote" : "Nay",
+					"_ID" : "32PUGM67I886NR6V6ARPFXS6A"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165463"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UG9UGXHNX0J",
+					"NameFirst" : "Shannon",
+					"NameLast" : "Latham",
+					"Party" : "R",
+					"Vote" : "Nay",
+					"_ID" : "2WXYU29S2TEZCIHMRQTIZ825E"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165464"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "46SB2RHKYB5UGA3EI7L9TH",
+					"NameFirst" : "Brent",
+					"NameLast" : "Siegrist",
+					"Party" : "R",
+					"Vote" : "Absent",
+					"_ID" : "2WEQR9B1T33DVV0REGBA6LYHU"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165465"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "1LBS4Y2297FEPALHJI73WLH",
+					"NameFirst" : "Jon",
+					"NameLast" : "Dunwell",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2ZQMI5Q1QY98Q96XYB4Z7ANDU"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165466"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR38PHH85HE",
+					"NameFirst" : "Taylor",
+					"NameLast" : "Collins",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2Y629PFANODUQRCUBR4X6HEXU"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165467"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3F36KBEQM",
+					"NameFirst" : "Dan",
+					"NameLast" : "Gehlbach",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2Y8S4EHB02JM1MWQKUJ0IZEUA"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165468"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3GD4DQGKJ",
+					"NameFirst" : "Cindy",
+					"NameLast" : "Golding",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2Z40ZFRHI25424BV7ZAROMZ8I"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165469"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3HN275IEF",
+					"NameFirst" : "Bill",
+					"NameLast" : "Gustoff",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "300JM4IPSAZX7QBVKFWOVYACJ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165470"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3IX00KK8E",
+					"NameFirst" : "Austin",
+					"NameLast" : "Harris",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2W3HZL5W6PEGM87YKFAHZQ7KZ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165471"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3LGVNENW5",
+					"NameFirst" : "Robert",
+					"NameLast" : "Henderson",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "322RW0LEADVKGHBZNH4S7CNAB"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165472"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3MQTGTPQ2",
+					"NameFirst" : "Heather",
+					"NameLast" : "Hora",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2XSUM5JEF9F3QMA8R9PYA17TV"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165473"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3O0RA8RKC",
+					"NameFirst" : "Barb",
+					"NameLast" : "Kniff McCulla",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2ZXIVHUUJF3IRC3XJP5VTJNQB"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165474"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3RUKQHX1Z",
+					"NameFirst" : "Joshua",
+					"NameLast" : "Meggers",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "32JCPA83NGTCM86DZMQX6G6OZ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165475"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3T4IJWYVV",
+					"NameFirst" : "Matthew",
+					"NameLast" : "Rinker",
+					"Party" : "R",
+					"Vote" : "Nay",
+					"_ID" : "2ZARI5WMH0TFHCF5EV5YMKRTV"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165476"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR42239UBPG",
+					"NameFirst" : "Charley",
+					"NameLast" : "Thomson",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2WR4RVB3W57BKT00996LRR4RN"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165477"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR44LYWOFD7",
+					"NameFirst" : "Mike",
+					"NameLast" : "Vondran",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2WCMQLHO3XDAIBL8XAR8RP9LV"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165478"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR48FSCXKUR",
+					"NameFirst" : "Devon",
+					"NameLast" : "Wood",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2XRQNSZXMS3TXDR2LPPPWMSWZ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165479"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR49PQ6CMOM",
+					"NameFirst" : "Derek",
+					"NameLast" : "Wulf",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2X3BV6LC5A2KC2VPK4V8M32ZN"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165480"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR4AZNZROIR",
+					"NameFirst" : "David",
+					"NameLast" : "Young",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2X4OU89A1BXJOKRTLRQK1V5R7"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165481"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3DT8QWCWQ",
+					"NameFirst" : "Zachary",
+					"NameLast" : "Dieken",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "318THSX5QBAOB3U7A83LFB00Z"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165482"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR475UJIJ0W",
+					"NameFirst" : "Hans",
+					"NameLast" : "Wilz",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "30NIZJEJSE00JKLM32K4K5IAR"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165483"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR32BSE4WBW",
+					"NameFirst" : "Jerome",
+					"NameLast" : "Amos",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2W9M8KXEDXQ36SN8A13HAMM77"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165484"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR33LQ7JY5Q",
+					"NameFirst" : "Austin",
+					"NameLast" : "Baeth",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2Z9BFEWKV248IBFNFTXPZINS3"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165485"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR39ZFAN7F3",
+					"NameFirst" : "Jeff",
+					"NameLast" : "Cooling",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "32LFQU3MCM07618083UHG45B7"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165486"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3CJAXHB2W",
+					"NameFirst" : "Tom",
+					"NameLast" : "Determann",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "323AGPL10INWUCAEPJCKOL42R"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165487"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3K6XTZM29",
+					"NameFirst" : "Helena",
+					"NameLast" : "Hayes",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2Z907NBCI515P8X4A1328KHYB"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165488"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3PAP3NTE7",
+					"NameFirst" : "Elinor",
+					"NameLast" : "Levin",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "32S3DL0MRQ7O8XZFFX5BNJWTF"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165489"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3QKMX2V83",
+					"NameFirst" : "Mary",
+					"NameLast" : "Madison",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "3250FNR3MVNO6X7K6Y4BUWZXF"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165490"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3VOE6R2JY",
+					"NameFirst" : "J.D.",
+					"NameLast" : "Scholten",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "30P567K43H89ENG8KVYUOW4PV"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165491"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3Y89TL67O",
+					"NameFirst" : "Megan",
+					"NameLast" : "Srinivas",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "32HXSKXSFFEW3NVCNXXISVMJN"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165492"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR40S5GF9VL",
+					"NameFirst" : "Mark",
+					"NameLast" : "Thompson",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "32HIH4WTGB3F62AJEOOII3JKZ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165493"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR43C139DJB",
+					"NameFirst" : "Joshua",
+					"NameLast" : "Turek",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "318EV87AC3B4A8DDLQJA62ORN"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165494"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR45VWQ3H72",
+					"NameFirst" : "Elizabeth",
+					"NameLast" : "Wilson",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2Y5F9J9AZD7N4UYLJU46WS1R7"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165495"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR34VO0YZZO",
+					"NameFirst" : "Sean",
+					"NameLast" : "Bagniewski",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2W5XDRHEORB3WHFLYMPKFMVHF"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165496"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3B9D4298X",
+					"NameFirst" : "Ken",
+					"NameLast" : "Croken",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2Z45Z2S43MXE3WLB1T3WZX2W3"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165497"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR3UEGDC0Q4",
+					"NameFirst" : "Sami",
+					"NameLast" : "Scheetz",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "324I47Z7C9BBU3015UINYGDSZ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165498"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYR2VVR4C9LT6QCM",
+					"NameFirst" : "Adam",
+					"NameLast" : "Zabner",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "31UUCEP692GICQ7623ZHACWYR"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165499"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91QZG6IYM4",
+					"NameFirst" : "Brett",
+					"NameLast" : "Barker",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YFIDCE5HZOHXNJAJ5LF61SDF"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165500"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91OFKJOSX2",
+					"NameFirst" : "Chad",
+					"NameLast" : "Behn",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2W9ZLHCJB1A8JAKINB7O2Y50J"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165501"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91S9DZY0JN",
+					"NameFirst" : "David",
+					"NameLast" : "Blom",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "315LMDJNUBFSL78EN40HNHSYR"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165502"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91JBTA0L57",
+					"NameFirst" : "Samantha",
+					"NameLast" : "Fett",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2ZU83JYC2IT1LPK88AQLI49NN"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165503"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91UT9MS4NU",
+					"NameFirst" : "Jason",
+					"NameLast" : "Gearhart",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2XUC1QTBLQ0TSZKDH1J2QRRVN"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165504"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91YN331AKW",
+					"NameFirst" : "Daniel",
+					"NameLast" : "Gosa",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2WYD032PUM3FZ88C0BN9225SZ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165505"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91TJBTD2IY",
+					"NameFirst" : "Christian",
+					"NameLast" : "Hermanson",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YFG7N9RM540JJOOS3PGHU28Z"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165506"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYS93DZL1PS9EX3H",
+					"NameFirst" : "Rob",
+					"NameLast" : "Johnson",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2ZQDO18B425V80G9K8NBJCTLV"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165507"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "19DDRF5BYS93DZL2ZQ2TZZS",
+					"NameFirst" : "Judd",
+					"NameLast" : "Lawler",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2YCNGZMMFF5GMCNA13Z8VJJDV"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165508"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91N5MQ9R14",
+					"NameFirst" : "Larry",
+					"NameLast" : "McBurney",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "2Y7SIXPLP7T3BEVPQM6A1221V"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165509"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91I1VGLJ7I",
+					"NameFirst" : "Travis",
+					"NameLast" : "Sitzmann",
+					"Party" : "R",
+					"Vote" : "Absent",
+					"_ID" : "2ZR0EQWEY5AKFTTFJBCTOPFQB"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165510"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91W37G76MQ",
+					"NameFirst" : "Jennifer",
+					"NameLast" : "Smith",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "31AC6Y8FC3D8HDOG1HVDS9X43"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165511"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91LVOWUP20",
+					"NameFirst" : "Ryan",
+					"NameLast" : "Weldon",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "311WBN8VPZJBFTP9QL3KL9BKZ"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165512"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91KLR3FN1G",
+					"NameFirst" : "Sam",
+					"NameLast" : "Wengryn",
+					"Party" : "R",
+					"Vote" : "Aye",
+					"_ID" : "2WXYU01KUCGYFAHFTJLI1844J"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165513"
+			},
+			{
+				"fieldData" : 
+				{
+					"Cosponsor" : "",
+					"Legislators_ID" : "Z7MKI5OYEWTZ91XD59M8MN",
+					"NameFirst" : "Aime",
+					"NameLast" : "Wichtendahl",
+					"Party" : "D",
+					"Vote" : "Nay",
+					"_ID" : "316GZAK30UXX09VEKNZ7HYTPF"
+				},
+				"modId" : "423",
+				"portalData" : {},
+				"recordId" : "165514"
+			}
+		],
+		"dataInfo" : 
+		{
+			"database" : "LegisACT",
+			"foundCount" : 99,
+			"layout" : "Vote Bill - Query",
+			"returnedCount" : 99,
+			"table" : "Votes",
+			"totalRecordCount" : 117044
+		}
+	}
+}

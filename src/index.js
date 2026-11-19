@@ -227,17 +227,23 @@ window.loadData = (json, f) => {
   const chart = Highcharts.chart("chart", {
     chart: {
       type: "bar",
+      height: 155,
+      spacing: [5, 0, 5, 0],
     },
-    xAxis: { categories: ["Aye", "Nay", "Absent"] },
+    xAxis: {
+      categories: ["", ""],
+      labels: { enabled: false },
+      tickLength: 0,
+      lineWidth: 0,
+    },
     yAxis: {
       min: 0,
-      title: {
-          text: 'Count trophies'
-      },
-      stackLabels: {
-          enabled: true
-      }
-  },
+      title: { text: null },
+      labels: { enabled: false },
+      gridLineWidth: 0,
+      maxPadding: 0,
+      endOnTick: false,
+    },
     title: {
       text: "Votes",
     },
@@ -245,14 +251,23 @@ window.loadData = (json, f) => {
       text: "Showing All",
       align: "left",
     },
+    legend: {
+      enabled: false,
+    },
     plotOptions: {
       bar: {
         pointWidth: 35,
+        pointPadding: 0,
+        groupPadding: 0.01,
         stacking: 'normal',
         dataLabels: {
-            enabled: true
+          enabled: true,
+          style: { textOutline: 'none', color: '#ffffff', fontWeight: 'bold' },
+          formatter: function () {
+            return this.y > 0 ? this.y : null;
+          }
         }
-    }
+      }
     },
     series: generateChartData(table),
   });
@@ -260,78 +275,100 @@ window.loadData = (json, f) => {
 
 
   function generateChartData(table) {
-    // Initialize an object to hold counts for 'Aye', 'Nay', and 'Absent' associated with 'R', 'D', 'I'
-    let counts = {
-        'R': [0, 0, 0], // Array for 'R': [Aye, Nay, Absent]
-        'D': [0, 0, 0], // Array for 'D': [Aye, Nay, Absent]
-        'I': [0, 0, 0]  // Array for 'I': [Aye, Nay, Absent]
-    };
+    let overall = { Aye: 0, Nay: 0, Absent: 0 };
+    let byParty = { DemAye: 0, RepAye: 0, DemNay: 0, RepNay: 0, DemAbsent: 0, RepAbsent: 0 };
 
-    // Iterate through the table data row by row
-    table.rows({ search: "applied" }).every(function (val) {
-        let data = this.data();
-        let vote = data[4]; // Column 4: 'Aye', 'Nay', 'Absent'
-        let party = data[3]; // Column 3: 'D', 'R', 'I'
+    table.rows({ search: "applied" }).every(function () {
+      let data = this.data();
+      let vote = data.Vote;
+      let party = data.Party;
 
-        console.log(val);
+      if (vote === 'Aye')        overall.Aye += 1;
+      else if (vote === 'Nay')   overall.Nay += 1;
+      else if (vote === 'Absent') overall.Absent += 1;
 
-        // Debug: Log the extracted values
-     //   console.log(`Vote: ${vote}, Party: ${party}`);
-
-        // Only increment the count if party is one of 'R', 'D', 'I'
-            switch (data.Vote) {
-                case 'Aye':
-                    counts[data.Party][0] += 1; // Increment 'Aye' count for the party
-                    break;
-                case 'Nay':
-                    counts[data.Party][1] += 1; // Increment 'Nay' count for the party
-                    break;
-                case 'Absent':
-                    counts[data.Party][2] += 1; // Increment 'Absent' count for the party
-                    break;
-                default:
-                    console.log(`Unexpected vote value: ${data.Vote}`);
-            }
+      if (party === 'D') {
+        if (vote === 'Aye')        byParty.DemAye += 1;
+        else if (vote === 'Nay')   byParty.DemNay += 1;
+        else if (vote === 'Absent') byParty.DemAbsent += 1;
+      } else if (party === 'R') {
+        if (vote === 'Aye')        byParty.RepAye += 1;
+        else if (vote === 'Nay')   byParty.RepNay += 1;
+        else if (vote === 'Absent') byParty.RepAbsent += 1;
+      }
     });
 
-    // Convert counts object into the desired array format
-// Define base colors
-const baseColors = {
-  R: '#FF0000',  // Red
-  D: '#0000FF',  // Blue
-  I: '#D3D3D3',  // Gray
-};
-
-// Define flipped colors (if applicable)
-const flippedColors = {
-  R: baseColors.D,  // Red flips to Blue
-  D: baseColors.R,  // Blue flips to Red
-  I: baseColors.I,  // Independent remains Gray
-};
-
-// Determine which color mapping to use
-const colorMap = flip ? flippedColors : baseColors;
-
-// Convert counts object into the desired array format
-let result = Object.entries(counts).map(([party, data]) => ({
-  name: party,
-  data: data,
-  color: colorMap[party] || "#FFFFFF", // Default color if not found
-  point: {
-      events: {
-          click: function () {
-              filterParty(party);
-              filterVote(this.category);
-          }
+    // Bar 0 = overall votes, Bar 1 = by party breakdown
+    return [
+      {
+        name: 'Aye',
+        data: [overall.Aye, null],
+        color: '#3CB371',
+        legendIndex: 0,
+        point: { events: { click: function () { filterVote('Aye'); } } }
+      },
+      {
+        name: 'Nay',
+        data: [overall.Nay, null],
+        color: '#E05555',
+        legendIndex: 1,
+        point: { events: { click: function () { filterVote('Nay'); } } }
+      },
+      {
+        name: 'Absent',
+        data: [overall.Absent, null],
+        color: '#CCCCCC',
+        legendIndex: 2,
+        point: { events: { click: function () { filterVote('Absent'); } } }
+      },
+      {
+        name: 'Dem Aye',
+        data: [null, byParty.DemAye],
+        color: '#1F77B4',
+        legendIndex: 3,
+        point: { events: { click: function () { filterAll(); filterParty('D'); filterVote('Aye'); } } }
+      },
+      {
+        name: 'Rep Aye',
+        data: [null, byParty.RepAye],
+        color: '#E05555',
+        legendIndex: 4,
+        point: { events: { click: function () { filterAll(); filterParty('R'); filterVote('Aye'); } } }
+      },
+      {
+        name: 'Dem Nay',
+        data: [null, byParty.DemNay],
+        color: '#7FB3D3',
+        legendIndex: 5,
+        point: { events: { click: function () { filterAll(); filterParty('D'); filterVote('Nay'); } } }
+      },
+      {
+        name: 'Rep Nay',
+        data: [null, byParty.RepNay],
+        color: '#F4A4A4',
+        legendIndex: 6,
+        point: { events: { click: function () { filterAll(); filterParty('R'); filterVote('Nay'); } } }
+      },
+      {
+        name: 'Dem Absent',
+        data: [null, byParty.DemAbsent],
+        color: '#D6E8F5',
+        borderColor: '#7FB3D3',
+        borderWidth: 1,
+        legendIndex: 7,
+        point: { events: { click: function () { filterAll(); filterParty('D'); filterVote('Absent'); } } }
+      },
+      {
+        name: 'Rep Absent',
+        data: [null, byParty.RepAbsent],
+        color: '#FAE0E0',
+        borderColor: '#F4A4A4',
+        borderWidth: 1,
+        legendIndex: 8,
+        point: { events: { click: function () { filterAll(); filterParty('R'); filterVote('Absent'); } } }
       }
+    ];
   }
-}));
-
-
-
-    console.log(counts);
-    return result;
-}
 
   
     
